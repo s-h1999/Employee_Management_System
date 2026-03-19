@@ -1,11 +1,11 @@
 import { useState } from "react";
 import Sidebar from "./Sidebar";
-import EmployeesPage from "./EmployeesPage";
-import DepartmentsPage from "./DepartmentsPage";
-import AttendancePage from "./AttendancePage";
-import PayrollPage from "./PayrollPage";
-import SettingsPage from "./SettingsPage";
-import { employees as initialEmployees } from "./data/employees";
+import EmployeesPage from "./Employeespage";
+import DepartmentsPage from "./Departmentspage";
+import AttendancePage from "./Attendancepage";
+import PayrollPage from "./Payrollpage";
+import SettingsPage from "./Settingspage";
+import { employees as initialEmployees } from "./Employees";
 
 export default function App() {
   const [page, setPage] = useState("employees");
