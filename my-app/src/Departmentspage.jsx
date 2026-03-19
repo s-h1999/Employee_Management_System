@@ -1,5 +1,5 @@
 // src/pages/DepartmentsPage.jsx
-import { Avatar, PageHeader, Button } from "./ui";
+import { Avatar, PageHeader, Button } from "./Ui";
 
 const DEPT_COLORS = { Engineering: "#4f46e5", HR: "#be185d", Marketing: "#0369a1", Finance: "#15803d" };
 
