@@ -1,5 +1,5 @@
 // src/pages/PayrollPage.jsx
-import { Avatar, Badge, MetricCard, PageHeader, Button } from "./ui";
+import { Avatar, Badge, MetricCard, PageHeader, Button } from "./Ui";
 
 export default function PayrollPage({ employees }) {
   const totalSalary = employees.reduce((s, e) => s + (Number(e.salary) || 0), 0);
