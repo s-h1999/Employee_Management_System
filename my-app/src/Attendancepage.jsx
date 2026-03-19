@@ -1,5 +1,5 @@
 // src/pages/AttendancePage.jsx
-import { Avatar, Badge, PageHeader } from "../components/ui";
+import { Avatar, Badge, PageHeader } from "./ui";
 
 // In a real app, fetch this from your backend for the selected week
 function generateMockAttendance(employees) {
