@@ -1,6 +1,6 @@
 // src/pages/EmployeesPage.jsx
 import { useState } from "react";
-import { Avatar, Badge, MetricCard, PageHeader, Button, Table, Modal, FormRow, Input, Select } from "./ui";
+import { Avatar, Badge, MetricCard, PageHeader, Button, Table, Modal, FormRow, Input, Select } from "./Ui";
 
 const DEPT_BADGE = { Engineering: "eng", HR: "hr", Marketing: "mkt", Finance: "fin" };
 const STATUS_BADGE = { Active: "active", Inactive: "inactive", Leave: "leave" };
