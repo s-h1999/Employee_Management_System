@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Sidebar from "./components/Sidebar";
-import EmployeesPage from "./pages/EmployeesPage";
-import DepartmentsPage from "./pages/DepartmentsPage";
-import AttendancePage from "./pages/AttendancePage";
-import PayrollPage from "./pages/PayrollPage";
-import SettingsPage from "./pages/SettingsPage";
+import Sidebar from "./Sidebar";
+import EmployeesPage from "./EmployeesPage";
+import DepartmentsPage from "./DepartmentsPage";
+import AttendancePage from "./AttendancePage";
+import PayrollPage from "./PayrollPage";
+import SettingsPage from "./SettingsPage";
 import { employees as initialEmployees } from "./data/employees";
 
 export default function App() {
