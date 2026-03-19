@@ -1,0 +1,78 @@
+// src/data/employees.js
+// Replace this with API calls to your backend
+
+export const employees = [
+  {
+    id: 1,
+    name: "Arisa Tanaka",
+    department: "Engineering",
+    role: "Senior Developer",
+    salary: 85000,
+    status: "Active",
+    joinDate: "2021-03-15",
+    email: "arisa@company.com",
+    phone: "+1-555-0101",
+  },
+  {
+    id: 2,
+    name: "Marcus Johnson",
+    department: "HR",
+    role: "HR Manager",
+    salary: 72000,
+    status: "Active",
+    joinDate: "2020-07-22",
+    email: "marcus@company.com",
+    phone: "+1-555-0102",
+  },
+  {
+    id: 3,
+    name: "Priya Mehta",
+    department: "Marketing",
+    role: "Brand Lead",
+    salary: 68000,
+    status: "Leave",
+    joinDate: "2022-01-10",
+    email: "priya@company.com",
+    phone: "+1-555-0103",
+  },
+  {
+    id: 4,
+    name: "David Owusu",
+    department: "Finance",
+    role: "Financial Analyst",
+    salary: 76000,
+    status: "Active",
+    joinDate: "2019-11-05",
+    email: "david@company.com",
+    phone: "+1-555-0104",
+  },
+  {
+    id: 5,
+    name: "Sofia Reyes",
+    department: "Engineering",
+    role: "Frontend Developer",
+    salary: 79000,
+    status: "Active",
+    joinDate: "2023-02-28",
+    email: "sofia@company.com",
+    phone: "+1-555-0105",
+  },
+  {
+    id: 6,
+    name: "Tom Nguyen",
+    department: "Marketing",
+    role: "SEO Specialist",
+    salary: 61000,
+    status: "Inactive",
+    joinDate: "2021-09-14",
+    email: "tom@company.com",
+    phone: "+1-555-0106",
+  },
+];
+
+export const departments = [
+  { id: 1, name: "Engineering", head: "Arisa Tanaka", budget: 500000, color: "#4f46e5" },
+  { id: 2, name: "HR", head: "Marcus Johnson", budget: 200000, color: "#be185d" },
+  { id: 3, name: "Marketing", head: "Priya Mehta", budget: 300000, color: "#0369a1" },
+  { id: 4, name: "Finance", head: "David Owusu", budget: 250000, color: "#15803d" },
+];
