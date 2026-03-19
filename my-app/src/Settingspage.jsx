@@ -1,6 +1,6 @@
 // src/pages/SettingsPage.jsx
 import { useState } from "react";
-import { PageHeader, Button, FormRow, Input, Select } from "./ui";
+import { PageHeader, Button, FormRow, Input, Select } from "./Ui";
 
 const Section = ({ title, children }) => (
   <div style={{ background: "#fff", border: "0.5px solid #e2e8f0", borderRadius: 12, padding: 24, marginBottom: 16 }}>
