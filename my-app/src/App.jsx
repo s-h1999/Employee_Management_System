@@ -1,8 +1,13 @@
-import EmployeeCard from "./components/EmployeeCard";
+
 import "./App.css";
+import Login from "./pages/Login";
 
 function App() {
-  return <EmployeeCard />;
+  return (
+    <>
+      <Login />
+    </>
+  );
 }
 
 export default App;
